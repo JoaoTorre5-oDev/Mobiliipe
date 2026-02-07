@@ -93,7 +93,6 @@ body {
   height: 100%;
   padding: 120px 80px;
   background-image: linear-gradient(138deg, #141414dc 35%, #131313a5 50%, #14141431 68%);
-  /*background-image: radial-gradient(rgba(24, 23, 23, 0.268) 35%, rgba(18, 16, 16, 0.527) 50%, rgba(0, 0, 0, 0.856) 78%);*/
   }
 
 .hero-logo {
