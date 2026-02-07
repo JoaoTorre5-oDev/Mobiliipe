@@ -92,8 +92,9 @@ body {
   width: 100%;
   height: 100%;
   padding: 120px 80px;
-  background-image: radial-gradient( rgba(24, 23, 23, 0.268)35%, rgba(18, 16, 16, 0.527)50%, rgba(0, 0, 0, 0.856)78%);
-}
+  background-image: linear-gradient(138deg, #141414dc 35%, #131313a5 50%, #14141431 68%);
+  /*background-image: radial-gradient(rgba(24, 23, 23, 0.268) 35%, rgba(18, 16, 16, 0.527) 50%, rgba(0, 0, 0, 0.856) 78%);*/
+  }
 
 .hero-logo {
   color: #c9a24d;
@@ -227,7 +228,7 @@ body {
   transition: 1s;
 }
 
-@media (max-width: 1200px) {
+/*@media (max-width: 1200px) {
   .gallery {
     column-count: 3;
   }
@@ -243,14 +244,32 @@ body {
   .gallery {
     column-count: 1;
   }
-}
+}*/
 
 
 /* SOBRE */
-.sobre {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
+.sobre-container {
+  background-image: url('../src/img/bk-body.jpg');
+  align-items: center;
+  padding: 20px;
+}
+
+#h2-sobre {
+  margin-bottom: 20px;
+  text-shadow: 2px 1px 2px rgb(95, 91, 25);
+}
+
+#sobre-texto {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#p-sobre {
+  background-color: red;
+  max-width: 700px;
+  padding: 20px;
+  text-align: center;
 }
 
 /* CONTATO */

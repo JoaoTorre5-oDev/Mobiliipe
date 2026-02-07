@@ -24,4 +24,4 @@ dots.forEach((dot, i) => {
 setInterval(() => {
   index = (index + 1) % slides.length;
   showSlide(index);
-}, 10000);
+}, 6000);
